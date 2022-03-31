@@ -1,0 +1,11 @@
+@import"./variables";
+
+div {
+    background-color: $backgroundBase;
+    padding: 10px;
+    width: 50%;
+}
+
+div h2 {
+    color: $h2color;
+}
