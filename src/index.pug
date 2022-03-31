@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        title Pug demo
+    body
+    div 
+        h1 Hello Pug !!
+    ul
+        li 
+            a(href="https://www.youtube.com/") Youtube
+        li bbb
+        li ccc
+    mixin pet(name)
+        li.pet= name
+    ul
+        +pet('cat')
+        +pet('dog')
+        +pet('bird')
+    - var friends = 0
+    case friends
+        when 0
+            p you have no friends
+        when 1
+            p you have a friend
+        default
+             p you have #{friends} friends
