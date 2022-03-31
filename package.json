@@ -1,0 +1,20 @@
+{
+  "name": "web-pack",
+  "version": "1.0.0",
+  "description": "- 使用 Babel：babel-loader\r - TypeScript 編譯成 JavaScript：ts-loader\r - SCSS 編譯成 CSS：sass-loader\r - 產生獨立的CSS檔：MiniCssExtractPlugin\r - CSS 也可以打包：css loader、style loader\r - 開發用伺服器：webpack-dev-server\r - 動態生成網頁：HtmlWebpackPlugin\r - 預設 JS 的打包\r # 模組化\r - CommonJS\r - ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HippoGiant/web-pack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HippoGiant/web-pack/issues"
+  },
+  "homepage": "https://github.com/HippoGiant/web-pack#readme"
+}
