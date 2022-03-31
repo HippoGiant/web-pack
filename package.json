@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/HippoGiant/web-pack/issues"
   },
-  "homepage": "https://github.com/HippoGiant/web-pack#readme"
+  "homepage": "https://github.com/HippoGiant/web-pack#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
